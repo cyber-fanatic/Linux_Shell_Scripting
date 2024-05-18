@@ -44,4 +44,8 @@ env
 ```
 - <ins><em>**variables Refrence**: View the **variables.sh** file in the current **Repository** </em></ins>
 
-
+## if elif and else in shell scripting :
+- **if** : It's used to check a condition. If the condition is true, the commands under if are executed.
+- **elif** : If the condition following if is false, elif checks another condition. If this condition is true, the commands under elif are executed.
+- **else** : If none of the conditions checked by if and elif are true, else executes its commands.
+- <ins><em>**if elif else Refrence**: View the **if_state.zsh** file in the current **Repository** </em></ins>
