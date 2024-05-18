@@ -22,15 +22,23 @@ where zsh
 echo $0
 ```
 
-## Shebang(#!):
-- A shebang in shell scripting is the **#!** at the beginning of a script, followed by the **path to an interpreter** (like #!/bin/bash). It **tells the system** which program to use to **execute** the script.
+## Shebang(#!) :
+- A shebang in shell scripting is the **#!** at the beginning of a script, followed by the **path to an interpreter** (like #!/bin/bash). It **tells the system** which **program** or **interpreter** to use to **execute** the script.
 - Check the path by typing following command.
   
 ```zsh
 where zsh
 ```
 - Add this **shebang** at the top before writing every shell script.
+
 ```zsh
 #!/usr/bin/zsh
 ```
-
+## Variables in Shell Scripting :
+- Variables in shell scripting are placeholders for **storing data or values**. They can be used to store strings, numbers, or other types of information. Variable names are case-sensitive and typically consist of uppercase letters, lowercase letters, numbers, and underscores. You can **assign values to variables** using the **syntax variable_name=value**, and access their values using **$variable_name notation**.
+## Environment Variables:
+- Every veriable declared in **uppercase** is envirement variable means the upper_case vareables are used by **system itself** so always declare variable in lower_case letters or mixed chars.
+- You can list all the **Environment** variables by typing **env** command on shell.
+```zsh
+env
+```
