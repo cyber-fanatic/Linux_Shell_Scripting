@@ -22,5 +22,15 @@ where zsh
 echo $0
 ```
 
-
+## Shebang(#!):
+- A shebang in shell scripting is the **#!** at the beginning of a script, followed by the **path to an interpreter** (like #!/bin/bash). It **tells the system** which program to use to **execute** the script.
+- Check the path by typing following command.
+  
+```zsh
+where zsh
+```
+- Add this **shebang** at the top before writing every shell script.
+```zsh
+#!/usr/bin/zsh
+```
 
