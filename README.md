@@ -42,5 +42,6 @@ where zsh
 ```zsh
 env
 ```
-- <ins><em>**variables Refrence**: Review the **variables.sh** file in the current **Repository** </em></ins>
+- <ins><em>**variables Refrence**: View the **variables.sh** file in the current **Repository** </em></ins>
+
 
