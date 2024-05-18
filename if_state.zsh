@@ -1,4 +1,4 @@
-#!/bin/zsh 
+#!/usr/bin/zsh 
 
 #CHECK num IS EQUAL TO OR NOT EQUAL TO 50:
 
