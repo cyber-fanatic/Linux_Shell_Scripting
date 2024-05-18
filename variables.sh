@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/zsh
 
 
 #LOCAL VARIABLES  my_name AND  age  must be small :
@@ -15,7 +15,7 @@ echo -e "i'm $age  old.\n"
 
 echo "your user_name is $USER"
 
-echo "<_______________________________________________________>"
+echo "<------------------------------------------------------>"
 
 
 #print current working directory
