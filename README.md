@@ -15,3 +15,9 @@ where bash
 ```zsh
 where zsh
 ```
+
+## Command to check the name of current shell:
+
+```zsh
+echo $0
+```
