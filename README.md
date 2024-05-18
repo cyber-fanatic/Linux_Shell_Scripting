@@ -37,8 +37,10 @@ where zsh
 ## Variables in Shell Scripting :
 - Variables in shell scripting are placeholders for **storing data or values**. They can be used to store strings, numbers, or other types of information. Variable names are case-sensitive and typically consist of uppercase letters, lowercase letters, numbers, and underscores. You can **assign values to variables** using the **syntax variable_name=value**, and access their values using **$variable_name notation**.
 ## Environment Variables:
-- Every veriable declared in **uppercase** is envirement variable means the upper_case vareables are used by **system itself** so always declare variable in lower_case letters or mixed chars.
+- Every veriable declared in **uppercase** is envirement variable means the upper_case vareables are used by **system itself** so always declare variable in lower_case letters or use snake_case with combination.
 - You can list all the **Environment** variables by typing **env** command on shell.
 ```zsh
 env
 ```
+- <ins><em>**variables Refrence**: Review the **variables.sh** file in the current **Repository** </em></ins>
+
